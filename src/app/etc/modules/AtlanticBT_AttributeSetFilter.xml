@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AtlanticBT_AttributeSetFilter>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </AtlanticBT_AttributeSetFilter>
+    </modules>
+</config>

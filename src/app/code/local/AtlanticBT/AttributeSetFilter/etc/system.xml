@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <atlanticbt translate="label">
+            <label>Atlantic BT</label>
+            <sort_order>150</sort_order>
+        </atlanticbt>
+    </tabs>
+    <sections>
+        <atlanticbt_attributesetfilter translate="label" module="atlanticbt_attributesetfilter">
+            <label>Attribute Set Filter</label>
+            <tab>atlanticbt</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <config translate="label">
+                    <label>Attribute Set Filter</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <attribute_sets translate="label comment">
+                            <label>Attribute Sets</label>
+                            <comment>Select the attribute sets to be used in the filter. If none are selected, then all will be used.</comment>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>atlanticbt_attributesetfilter/adminhtml_system_config_source_attributesets</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </attribute_sets>
+                    </fields>
+                </config>
+            </groups>
+        </atlanticbt_attributesetfilter>
+    </sections>
+</config>

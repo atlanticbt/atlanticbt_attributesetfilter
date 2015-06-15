@@ -1,0 +1,7 @@
+{
+    "name": "atlanticbt/attributesetfilter",
+    "type": "magento-module",
+    "description": "A magento module that creates a filter based on the attribute sets",
+    "keywords": ["magento", "filtering"],
+    "authors": [{ "name":"AtlanticBT", "email":"magento@atlanticbt.com", "homepage":"http://atlanticbt.com" }]
+}

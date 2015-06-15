@@ -1,0 +1,21 @@
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <atlanticbt_attributesetfilter translate="title" module="atlanticbt_attributesetfilter">
+                                        <title>Attribute Set Filter</title>
+                                    </atlanticbt_attributesetfilter>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
