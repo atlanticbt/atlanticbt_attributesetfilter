@@ -32,7 +32,7 @@ Remove all extension files from your Magento installation
 
 Support
 -------
-If you have any issues with this extension, contact the author
+If you have any issues with this extension, open an issue on Github
 
 Contribution
 ------------
